@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+    color: #2b2839;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-img{
+    width: 150px;
+}
+
+.card{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #48cae4;
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    border: 3px solid #303030;
+    border-radius: 30px; 
+    text-shadow: 90px;
+    
+}
+
+.card:hover  {
+    border-color: aquamarine;
+    color: blanchedalmond;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
